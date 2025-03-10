@@ -1,12 +1,12 @@
 Proiectul meu implementează procesarea unei imagini preluate dintr-un API, aplicând transformări logaritmice ale nivelului de gri și un efect de oglindire.
 1. HTML-ul definește structura paginii web care conține butoane pentru generarea și aplicarea efectelor pe imagine, secțiuni pentru a arăta imaginea originală și imaginea procesată, precum și afișarea datelor de procesare.
-•	<div class="container">: containerul principal pentru pagina de aplicație.
-•	<h1>: titlul aplicației.
-•	<button id="generateImageButton">: buton pentru generarea imaginii.
-•	<button id="applyEffectsButton">: buton pentru aplicarea efectelor.
-•	<div id="jsonDataContainer">: secțiune pentru afișarea datelor JSON preluate de la API.
-•	<div id="imageContainer">: container pentru imaginile originală și procesată.
-•	<div id="timingContainer">: afișează timpii de procesare pentru fiecare etapă.
+•	"<div class="container">": containerul principal pentru pagina de aplicație.
+•	"<h1>": titlul aplicației.
+•	"<button id="generateImageButton">": buton pentru generarea imaginii.
+•	"<button id="applyEffectsButton">": buton pentru aplicarea efectelor.
+•	"<div id="jsonDataContainer">": secțiune pentru afișarea datelor JSON preluate de la API.
+•	"<div id="imageContainer">": container pentru imaginile originală și procesată.
+•	"<div id="timingContainer">": afișează timpii de procesare pentru fiecare etapă.
 2. CSS-ul se ocupă cu aspectul vizual al aplicației. Principalele secțiuni sunt:
 •	body: stilizează fundalul și centrarea conținutului.
 •	.container: setează aspectul general al containerului, inclusiv margini, umbră și dimensiune.
