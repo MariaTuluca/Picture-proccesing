@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Procesare Imagine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Transformare imagine</h1>
+      <p>Apasă pe butonul de mai jos pentru a prelucra imaginea.</p>
+      <button id="generateImageButton">Generare Imagine</button>
+      <button id="applyEffectsButton">Aplică Efecte</button>
+
+      <div id="jsonDataContainer">
+        <h3>Componente JSON:</h3>
+        <pre id="jsonData"></pre>
+      </div>
+
+      <div id="imageContainer">
+        <div id="originalImageContainer">
+          <h3>Imaginea Originală:</h3>
+          <img id="originalImage" src="" alt="Imaginea Originală" />
+        </div>
+
+        <div id="processedImageContainer">
+          <h3>Imaginea Procesată:</h3>
+          <img id="processedImage" src="" alt="Imaginea Procesată" />
+        </div>
+      </div>
+
+      <div id="timingContainer">
+        <p id="startTime"></p>
+        <p id="endTime"></p>
+        <p id="executionTime"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
